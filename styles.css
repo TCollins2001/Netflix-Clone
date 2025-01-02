@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+}
+
+.home-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(images/home-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo {
+    height: 80px;
+    width: 190px;
+    margin-top: -3px;
+    margin-left: 120px;
+    position: relative;
+    z-index: 2;
+}
+
+.header-buttons {
+    float: right;
+    margin-right: 140px;
+    margin-top: 10px;
+}
+
+.translate-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 33px;
+    width: 130px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: grey;
+    outline-color: white;
+    font-size: 15px;
+    padding-right: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+    
+.translate-button-icon {
+    position: relative;
+    top: 2px;
+    right: 5px;
+    padding-right: 5px;
+}
+
+.down-arrow-icon {
+    position: relative;
+    top: 3px;
+    left: 8px; 
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+#language-menu {
+    background-color: gainsboro;
+    width: 130px;
+}
+
+.menu-item {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: blue;
+    color: white;
+}
+
+.checkmark {
+    font-size: 12px;
+    padding-right: 5px;
+    display: none;
+}
+
+.selected .checkmark {
+    display: inline;
+}
+
+.sign-in-button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 33px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 510px;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.header-container h1 {
+    text-align: center;
+    font-size: 56px;
+    width: 50%;
+    margin-bottom: 9px;
+}
+
+.starts {
+    font-size: 19px;
+    font-weight: 580;
+    margin-bottom: 25px;
+}
+
+.ready {
+    font-size: 16px;
+}
+
+.header-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    margin-right: 10px;
+}
+
+.header-search-container input {
+    height: 30px; 
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: grey;
+    outline-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-search-container input::placeholder {
+    font-size: 16px;
+    color: gainsboro;
+}
+
+.header-search-container button {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    height: 54px;
+    width: 220px;
+    margin-left: 8px;
+    cursor: pointer;
+ }
