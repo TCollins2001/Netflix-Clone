@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+    const translateButton = document.querySelector(".translate-button");
+    const menuItems = document.querySelectorAll(".menu-item");
+    const languageMenu = document.getElementById("language-menu");
+
+    const updateSelection = (selectedItem) => {
+        menuItems.forEach((item) => item.classList.remove("selected"));
+
+        selectedItem.classList.add("selected");
+    };
+
+    menuItems.forEach((item) => {
+        item.addEventListener("click", (event) => {
+            event.preventDefault();
+            updateSelection(item);
+
+        });
+
+    });
+
+    translateButton.addEventListener("click", () => {
+        languageMenu.style.display = languageMenu.style.display === "block" ? "none" : "block";
+
+    });
+
+    });
+
+    </script>
+</head>
+<body class="home-background">
+    <header>
+        <img class="logo" src="images/netflix-logo.png" alt="netflix-logo">
+        <div class="header-buttons">
+        <button class="translate-button">
+            <img class="translate-button-icon" src="images/translate-icon.png" alt="translate-icon">English
+            <img class="down-arrow-icon" src="images/down-arrow.png" alt="down-arrow-icon">
+        </button>
+       <button class="sign-in-button">Sign In</button>
+       <div class="dropdown-menu" id="language-menu">
+        <a href="#" class="menu-item"><span class="checkmark">✔</span>English</a>
+        <a href="#" class="menu-item"><span class="checkmark">✔︎</span>Español</a>
+    </div>
+    </div>    
+</div>
+    </header>
+    <header-section>
+        <div class="header-container">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <p class="starts">Starts at $6.99. Cancel anytime.</p>
+        <p class="ready">Ready to watch? Enter your email to create or restart your membership.</p>
+    </div>
+    <div class="header-search-container">
+    <input type="text" placeholder="Email address"> 
+    <button>Get Started</button>
+</div>
+    </header-section>
+</body>
+</html>
