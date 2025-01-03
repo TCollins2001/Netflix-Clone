@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    background-color: black;
+    overflow-x: hidden;
 }
 
 * {
@@ -9,6 +11,7 @@ body {
 
 .home-background {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(images/home-background.jpg);
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -217,7 +220,7 @@ body {
     border: none;
  }
 
- .suggestion-background h2 {
+ .trendnow {
     color: white;
     margin-left: 80px;
  }
@@ -307,4 +310,73 @@ body {
 .outlined-number {
     font-size: 90px;
     text-shadow: 2px 2px 0px white, -2px -2px 0px white, -2px 2px 0px white, 2px -2px 0px white;
+}
+
+.reasons {
+    color: white;
+    margin-left: 80px;
+}
+
+.reason-list {
+    margin-top: 20px;
+    margin-left: 72px;
+    display: flex;
+    gap: 38px;
+}
+
+.reason-list div {
+    background:linear-gradient(to right, rgb(55, 25, 52) 30%, rgb(40, 25, 52) 80%);
+    width: 255px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.reason-list h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.reason-list p {
+    color: gainsboro;
+    position: relative;
+    bottom: -30px;
+}
+
+.reason-icon-list {
+    position: relative;
+    bottom: 90px;
+    left: 90px;
+    list-style-type: none;
+    display: flex;
+}
+
+.tv-icon {
+    position: absolute;
+    left: 85px;
+    width: 80px;
+    height: 70px;
+}
+
+.arrow-icon {
+    position: absolute;
+    left: 425px;
+    width: 75px;
+    height: 65px;
+}
+
+.scope-icon {
+    position: absolute;
+    top: -27px;
+    left: 730px;
+    width: 100px;
+    height: 90px;
+}
+
+.faces-icon {
+    position: absolute;
+    left: 1090px;
+    width: 80px;
+    height: 70px;
 }
