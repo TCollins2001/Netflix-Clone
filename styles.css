@@ -396,12 +396,17 @@ details {
     width: 85%;
     margin-left: 76px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 summary {
     padding: 1px; 
     font-size: 25px;
     padding-bottom: 10px;
+}
+
+details:hover {
+    background-color: #636363;
 }
 
 summary::marker {
