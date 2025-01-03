@@ -43,18 +43,16 @@ body {
     cursor: pointer;
     margin-right: 10px;
 }
-    
-.translate-button-icon {
-    position: relative;
-    top: 2px;
-    right: 5px;
-    padding-right: 5px;
+
+.selected-language {
+    flex-grow: 1;
+    margin-left: 3px;
 }
 
 .down-arrow-icon {
     position: relative;
-    top: 3px;
-    left: 8px; 
+    left: 20px;
+    top: 2px;
 }
 
 .dropdown-menu {
@@ -64,11 +62,12 @@ body {
 #language-menu {
     background-color: gainsboro;
     width: 130px;
+    position: absolute;
 }
 
 .menu-item {
     display: block;
-    padding: 5px;
+    padding: 8px;
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -77,16 +76,6 @@ body {
 .menu-item:hover {
     background-color: blue;
     color: white;
-}
-
-.checkmark {
-    font-size: 12px;
-    padding-right: 5px;
-    display: none;
-}
-
-.selected .checkmark {
-    display: inline;
 }
 
 .sign-in-button {
@@ -107,6 +96,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 510px;
+    width: 100%;
     color: white;
     position: relative;
     z-index: 2;
@@ -135,6 +125,8 @@ body {
     align-items: center;
     margin-top: -100px;
     margin-right: 10px;
+    position: relative;
+    z-index: 3;
 }
 
 .header-search-container input {
@@ -146,6 +138,7 @@ body {
     border-color: grey;
     outline-color: white;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .header-search-container input::placeholder {
@@ -168,7 +161,7 @@ body {
  
  .suggestion-background {
     background: linear-gradient(rgb(48, 25, 52) 0.2%, rgb(0, 0, 0) 30%);
-    height: 80%;
+    height: 100vh;
     width: 100%;
     margin-top: 250px;
  }
@@ -223,3 +216,95 @@ body {
     cursor: pointer;
     border: none;
  }
+
+ .suggestion-background h2 {
+    color: white;
+    margin-left: 80px;
+ }
+
+ .suggestion-buttons {
+    margin-left: 80px;
+    margin-top: 30px;
+ }
+
+ .location-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 33px;
+    width: 140px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: grey;
+    outline-color: white;
+    font-size: 14.5px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+
+.selected-location {
+    position: relative;
+    left: 2px;
+}
+
+.type-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 33px;
+    width: 130px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: grey;
+    outline-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#location-menu {
+    background-color: gainsboro;
+    width: 130px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+
+#type-menu {
+    background-color: gainsboro;
+    width: 130px;
+    margin-left: 225px;
+}
+
+.scroll-box {
+    overflow: auto;
+    white-space: nowrap;
+    background-color: black;
+    width: 88%;
+    height: 60%;
+    margin-top: -600px;
+    margin-left: 70px;
+}
+
+.scroll-box img {
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.numbered-list {
+    font-size: 90px;
+    font-weight: bold;
+    position: relative;
+    right: 120px;
+    top: 330px;
+    list-style-type: none;
+}
+
+.numbered-list li {
+    display: inline-block;
+    color: black;
+    padding-left: 143px;
+}
+
+.outlined-number {
+    font-size: 90px;
+    text-shadow: 2px 2px 0px white, -2px -2px 0px white, -2px 2px 0px white, 2px -2px 0px white;
+}

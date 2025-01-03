@@ -12,13 +12,13 @@
         <img class="logo" src="images/netflix-logo.png" alt="netflix-logo">
         <div class="header-buttons">
         <button class="translate-button">
-            <img class="translate-button-icon" src="images/translate-icon.png" alt="translate-icon">English
+            <span class="selected-language">English</span>
             <img class="down-arrow-icon" src="images/down-arrow.png" alt="down-arrow-icon">
         </button>
        <button class="sign-in-button">Sign In</button>
        <div class="dropdown-menu" id="language-menu">
-        <a href="#" class="menu-item"><span class="checkmark">✔</span>English</a>
-        <a href="#" class="menu-item"><span class="checkmark">✔︎</span>Español</a>
+        <a href="#" class="menu-item">English</a>
+        <a href="#" class="menu-item">Español</a>
     </div>
     </div>    
 </div>
@@ -43,7 +43,51 @@
                     <p>Get our most affordable, ad-supported plan.</p>
                 </div>
             </div>
+            <h2>Trending Now</h2>
+            <div class="suggestion-buttons">
+            <button class="location-button">
+                <span class="selected-location">United States</span>
+                <img class="down-arrow-icon" src="images/down-arrow.png" alt="down-arrow-icon">
+            </button>
+            <button class="type-button">
+                <span class="selected-type">Movies</span>
+                <img class="down-arrow-icon" src="images/down-arrow.png" alt="down-arrow-icon">
+            </button>
         </div>
-    </suggestion-section>
+        <div class="dropdown-menu" id="location-menu">
+            <a href="#" class="menu-item">United States</a>
+            <a href="#" class="menu-item">Global</a>
+        </div>
+        <div class="dropdown-menu" id="type-menu">
+            <a href="#" class="menu-item">Movies</a>
+            <a href="#" class="menu-item">TV Shows</a>
+        </div>
+        </div>
+    <div class="scroll-box">
+        <ul class="numbered-list">
+            <li class="outlined-number">1</li>
+            <li class="outlined-number">2</li>
+            <li class="outlined-number">3</li>
+            <li class="outlined-number">4</li>
+            <li class="outlined-number">5</li>
+            <li class="outlined-number">6</li>
+            <li class="outlined-number">7</li>
+            <li class="outlined-number">8</li>
+            <li class="outlined-number">9</li>
+            <li class="outlined-number">10</li>
+        </ul>
+        <a href=""><img src="images/carry-on.jpg" alt="first movie"></a>
+        <a href=""><img src="images/the-six-trip.jpg" alt="second movie"></a>
+        <a href=""><img src="images/godzilla.jpg" alt="third movie"></a>
+        <a href=""><img src="images/the-forge.jpg" alt="fourth movie"></a>
+        <a href=""><img src="images/that-christmas.jpg" alt="fifth movie"></a>
+        <a href=""><img src="images/it-ends.jpg" alt="sixth movie"></a>
+        <a href=""><img src="images/kll-em.jpg" alt="seventh movie"></a>
+        <a href=""><img src="images/the-christmas-chron.jpg" alt="eighth movie"></a>
+        <a href=""><img src="images/our-little.jpg" alt="ninth movie"></a>
+        <a href=""><img src="images/barbie.jpg" alt="tenth movie"></a>
+    </div>
+</suggestion-section>
+</div>
 </body>
 </html>
