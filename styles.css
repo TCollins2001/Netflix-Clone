@@ -282,9 +282,9 @@ body {
     white-space: nowrap;
     background-color: black;
     width: 88%;
-    height: 60%;
-    margin-top: -600px;
+    margin-top: -560px;
     margin-left: 70px;
+    overflow-y: hidden;
 }
 
 .scroll-box img {
@@ -315,6 +315,7 @@ body {
 .reasons {
     color: white;
     margin-left: 80px;
+    margin-top: 80px;
 }
 
 .reason-list {
@@ -379,4 +380,57 @@ body {
     left: 1090px;
     width: 80px;
     height: 70px;
+}
+
+.frequent-section h2 {
+    color: white;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+details {
+    background-color: #3b3b3b;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    width: 85%;
+    margin-left: 76px;
+    margin-top: 20px;
+}
+
+summary {
+    padding: 1px; 
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+summary::marker {
+    display: none;
+    content: "";
+}
+
+summary::after {
+    content: "\002B";
+    position: absolute;
+    right: 140px;
+}
+
+details[open] summary::after {
+    content: "\00D7";
+}
+
+details[open] summary {
+    border-bottom: 3px solid black;
+}
+
+.frequent-section div {
+    padding-top: 20px;
+}
+
+.frequent-section p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
 }
