@@ -489,3 +489,131 @@ footer button {
     position: absolute;
     left: 70px;
 }
+
+/* homepage */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-in-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 450px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.sign-in-box h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.header-sign-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 3;
+}
+
+.header-sign-container input {
+    height: 30px; 
+    width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: grey;
+    outline-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#first-name {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 9px;
+    margin-right: 225px;
+}
+
+#last-name {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 92px;
+    margin-right: 225px;
+}
+
+#email {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 175px;
+    margin-right: 211px;
+}
+
+#password {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 255px;
+    margin-right: 232px;
+}
+
+.second-sign-in-button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#email-signin {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 8px;
+    margin-right: 211px;
+}
+
+#password-signin {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 90px;
+    margin-right: 232px;
+}
+
+.sign-in-box a {
+    margin-top: 30px;
+}
+
+.forget {
+    color: gainsboro;
+}
+
+.sign-in-box p {
+    color: gainsboro;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.sign-up {
+    color: white;
+}
+
+
