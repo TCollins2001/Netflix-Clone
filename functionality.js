@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const checkmark = item.querySelector(".checkmark");
             if (checkmark) checkmark.style.visibility = "visible";
-            
+
 
             if (parentMenu === languageMenu) {
                 updateButtonText(translateButton, selectedText);
@@ -104,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-    }
-
+}
+    
 });
+

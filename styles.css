@@ -616,4 +616,182 @@ footer button {
     color: white;
 }
 
+/* sign-in & sign-up pages */
+
+
+.watching-background {
+    background-color: black;
+}
+
+.watching-background h1 {
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 50px;
+}
+
+.profilepopup {
+    display: none;
+    margin: auto;
+    position: relative;
+    bottom: 350px;
+}
+
+#profilepopup {
+    width: 630px;
+    height: 530px;
+    background-color: #141414;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#profilepopup h2 {
+    text-align: center;
+    color: white;
+    font-size: 29px;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profilepopup p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus {
+    cursor: pointer;
+    float: right;
+    margin-right: 330px;
+    margin-top: -130px;
+    width: 70px;
+    height: 70px;
+    padding: 30px;
+}
+
+.plus:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.close {
+    color: white;
+    cursor: pointer;
+    font-size: 38px;
+    font-weight: 100;
+    float: right;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.profile-form img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.profile-form input {
+    width: 450px;
+    height: 25px;
+    position: relative;
+    top: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: grey;
+    outline-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    padding-left: 15px;
+}
+
+.profile-form label {
+    color: white;
+    position: relative;
+    top: -2px;
+    left: 150px;
+    font-size: 11px;
+    padding-bottom: 15px;
+}
+
+.divider {
+    border: 0.2px solid grey;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    width: 92%;
+}
+
+.save-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    padding-bottom: 10px;
+}
+
+.save {
+    background-color: white;
+    padding: 10px;
+    width: 92%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save:hover {
+    background-color: gainsboro;
+    transition: 0.1s ease-in;
+}
+
+.cancel-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 160px;
+}
+
+.cancel {
+    background-color: #141414;
+    border: 1px solid #141414;
+    color: white;
+    padding: 10px;
+    width: 92%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+.cancel:hover {
+    background-color: grey;
+    transition: 0.1s ease-in;
+}
+
+
+
 

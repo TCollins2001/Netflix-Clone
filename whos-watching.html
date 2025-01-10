@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    function plusButton() {
+        document.getElementById("profilepopup").style.display = "block";
+}
+
+    function plusButtonClose() {
+        document.getElementById("profilepopup").style.display = "none";
+    }
+    </script>
+</head>
+<body class="watching-background">
+    <header>
+    <h1>Who's Watching?</h1>
+</header>
+<div class="add-profile-button">
+    <img class="plus" onclick="plusButton()" src="images/plus.png" alt="add profile plus button">
+    <div class="profilepopup" id="profilepopup">
+        <div class="close" onclick="plusButtonClose()">&#215</div>
+        <h2>Add a Profile!</h2>
+        <p>Add a profile for another person watching Netflix.</p>
+        <div class="profile-form">
+            <img src="images/red-face.png" alt="red Netflix profile face">
+            <input type="text">
+            <label for="input">Name</label>
+            <div class="divider"></div>
+        </div>
+        <div class="save-button">
+        <button class="save">Save</button>
+    </div>
+    <div class="cancel-button">
+        <button class="cancel" onclick="plusButtonClose()">Cancel</button>
+    </div>
+</div>
+</div>
+</body>
+</html>
